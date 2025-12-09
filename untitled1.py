@@ -49,8 +49,8 @@ def narysuj_mikolaja(ilosc_sniegu):
 
     # --- 1. TUŁÓW I NOGI ---
     # Buty
-    ax.add_patch(patches.Ellipse((3.8, 1.5), 1.2, 1, color=czarny))
-    ax.add_patch(patches.Ellipse((6.2, 1.5), 1.2, 1, color=czarny))
+    ax.add_patch(patches.Ellipse((3.8, 0.8), 1.2, 1, color=czarny))
+    ax.add_patch(patches.Ellipse((6.2, 0.8), 1.2, 1, color=czarny))
 
     # Główna bryła płaszcza
     tulow = patches.Ellipse((5, 4), 5, 7, color=czerwony)
@@ -73,8 +73,8 @@ def narysuj_mikolaja(ilosc_sniegu):
     ax.add_patch(reka_prawa)
 
     # Rękawice
-    ax.add_patch(patches.Circle((1.8, 4.2), 0.5, color=czarny))
-    ax.add_patch(patches.Circle((8.2, 4.2), 0.5, color=czarny))
+    ax.add_patch(patches.Circle((1.8, 5), 0.5, color=czarny))
+    ax.add_patch(patches.Circle((8.2, 5), 0.5, color=czarny))
 
     # --- 4. BRODA (ŁĄCZNIK) ---
     srodki_brody = [(5, 6.5), (4.2, 6.8), (5.8, 6.8), (4.5, 6), (5.5, 6), (5, 5.5)]
