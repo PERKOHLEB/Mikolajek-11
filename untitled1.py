@@ -53,7 +53,7 @@ def narysuj_mikolaja(ilosc_sniegu):
     ax.add_patch(patches.Ellipse((6.2, 1.5), 1.2, 1, color=czarny))
 
     # Główna bryła płaszcza
-    tulow = patches.Ellipse((5, 4), 5.5, 7, color=czerwony)
+    tulow = patches.Ellipse((5, 4), 5, 7, color=czerwony)
     ax.add_patch(tulow)
 
     # Biały pas na środku płaszcza
@@ -67,14 +67,14 @@ def narysuj_mikolaja(ilosc_sniegu):
     ax.add_patch(patches.Rectangle((4.7, 3.9), 0.6, 0.6, color=czarny))
 
     # --- 3. RĘCE ---
-    reka_lewa = patches.Ellipse((3, 5), 3, 1.2, angle=30, color=czerwony)
-    reka_prawa = patches.Ellipse((7, 5), 3, 1.2, angle=-30, color=czerwony)
+    reka_lewa = patches.Ellipse((3, 6), 3, 1.2, angle=30, color=czerwony)
+    reka_prawa = patches.Ellipse((7, 6), 3, 1.2, angle=-30, color=czerwony)
     ax.add_patch(reka_lewa)
     ax.add_patch(reka_prawa)
 
     # Rękawice
-    ax.add_patch(patches.Circle((1.8, 4.2), 0.5, color='#1ab21a'))
-    ax.add_patch(patches.Circle((8.2, 4.2), 0.5, color='#1ab21a'))
+    ax.add_patch(patches.Circle((1.8, 4.2), 0.5, color=czarny))
+    ax.add_patch(patches.Circle((8.2, 4.2), 0.5, color=czarny))
 
     # --- 4. BRODA (ŁĄCZNIK) ---
     srodki_brody = [(5, 6.5), (4.2, 6.8), (5.8, 6.8), (4.5, 6), (5.5, 6), (5, 5.5)]
